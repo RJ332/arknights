@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arknights</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/style2.css">
+    <link rel="stylesheet" href="CSS/font-awesome.min.css">
+</head>
+<body>
+<div class="w3-top">
+    <ul class="w3-navbar" id="myNavbar">
+      <li><a href="#" class="w3-padding-large">Arknights</a></li>
+      <li class="w3-hide-small w3-right">
+        <a href="#3" class="w3-padding-large">Classes</a>
+      </li>
+      <li class="w3-hide-small w3-right">
+        <a href="#2" class="w3-padding-large">Organizações</a>
+      </li>
+      <li class="w3-hide-small w3-right">
+        <a href="#1" class="w3-padding-large">O Que é?</a>
+      </li>
+    </ul>
+  </div>
+  
+  <div class="bgimg-1 w3-opacity w3-display-container">
+    <div class="w3-display-middle" style="white-space:nowrap;">
+      <h1 class="w3-center w3-padding-xlarge w3-black w3-xlarge w3-wide w3-animate-opacity">ARKNIGHTS</span></h1>
+    </div>
+  </div>
+  
+  <div class="w3-content w3-container w3-padding-64" id="1">
+    <h2 class="w3-center">O Que é?</h2>
+    <p>Arknights é um jogo chinês. Desenvolvido pela Hypergryph e Studio Montagne enquanto publicado pela Yostar, foi lançado na China em 2019 e mundialmente em janeiro de 2020 para dispositivos iOS e Android.</p>
+    <p>A jogabilidade principal é a de um jogo de defesa , com um grupo de personagens ("operadores") como torres. Os operadores são divididos em oito classes: vanguarda, guarda, defensor, especialista, médico, lançador, atirador e defensor. Operadores corpo a corpo podem ser colocados em ladrilhos retificados e operadores a distância em ladrilhos elevados. Operadores corpo a corpo impedem fisicamente os inimigos de avançarem, e operadores de longo alcance causam dano à distância ou curam operadores de corpo a corpo. Operadores especializados podem ser implantados em qualquer peça jogável. Os jogadores devem colocar os operadores nas peças corretas para impedir que o inimigo se infiltre na base do jogador.</p>
+    <div class="w3-row">
+      <div class="w3-col m6 w3-center w3-section">
+        <img src="IMG/amiya-in-arknights.jpg"  id="p" class="w3-circle" alt="Photo of Me">
+      </div>
+    </div>
+  </div>
+  
+  <div class="bgimg-2 w3-display-container" id="2">
+    <div class="w3-display-middle">
+      <span class="w3-xxlarge w3-text-light-grey w3-wide">Organizações</span>
+    </div>
+  </div>
+  
+  <div class="w3-content w3-container w3-padding-64">
+    <div class="w3-row-padding w3-center">
+      <div class="w3-col m3">
+        <img src="IMG/blacksteel.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+      </div>
+  
+      <div class="w3-col m3">
+        <img src="IMG/kjerag.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+      </div>
+  
+      <div class="w3-col m3">
+        <img src="IMG/victoria.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+      </div>
+  
+      <div class="w3-col m3">
+        <img src="IMG/rhine.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+      </div>
+    </div>
+  
+    <div class="w3-row-padding w3-center w3-section">
+      <div class="w3-col m3">
+        <img src="IMG/abyssal.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+      </div>
+  
+      <div class="w3-col m3">
+        <img src="IMG/penguin.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+      </div>
+  
+      <div class="w3-col m3">
+        <img src="IMG/yan.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+      </div>
+  
+      <div class="w3-col m3">
+        <img src="IMG/ursus.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+      </div>
+    </div>
+  </div>
+  
+  <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+    <span class="w3-closebtn w3-hover-red w3-text-white w3-xxxlarge w3-container w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" style="max-width:100%">
+    </div>
+  </div>
+  
+  <div class="bgimg-3 w3-display-container" id="3">
+    <div class="w3-display-middle">
+      <h2 class="w3-xxlarge w3-text-light-grey w3-wide">Classes</h2>
+    </div>
+  </div>
+  
+  <div class="w3-content w3-container w3-padding-64">
+    <p><em>1.Vanguardas</em><br><em>Local de implantação: Solo.</em></p>
+    <p><em>Embora sejam mais fracos que os Guards e Defenders, eles são os mais baratos e possuem habilidades de recuperação C (Uma Espécie de moeda que tem o valor de dar uma certa quantidade para por os seus operadores na batalha). Tornando-os uma boa escolha para a configuração inicial, pois eles ajudam muito na obtenção do Custo necessário para colocar o resto da equipe.</em></p>
+    <p><em>2.Guards</em><br><em>Local de implantação: Solo.</em></p>
+    <p><em>Os Guards são as principais unidades DPS corpo a corpo. Alguns guardas, como Frontstleaf, também têm ataques à distância.</em></p>
+    <p><em>3.Defenders</em><br><em>Local de implantação: Solo.</em></p>
+    <p><em>Os Defenders são bons em manter uma linha, mas tendem a não ser capazes de causar dano por conta própria (exceção notável: Hoshiguma), portanto, ter uma unidade DPS perto deles é geralmente uma obrigação.</em></p>
+    <p><em>4.Specialist</em><br><em>Local de implantação: Solo.</em></p>
+    <p><em>Os Specialists têm habilidades que não se enquadram em outras classes. Eles podem empurrar ou puxar o inimigo ou ter uma rápida recuperação. Eles também têm baixo custo.</em></p>
+    <p><em>5.Casters</em><br><em>Local de implantação: Terreno elevado.</em></p>
+    <p><em>Embora mais lentos que os Snipers, eles causam mais dano, especialmente contra inimigos blindados. Certos rodízios, como Ifrit, usam ataques AoE. Eles custam mais do que um lançador normal, mas podem danificar todos os que estão ao mesmo tempo.</em></p>
+    <p><em>6.Medics</em><br><em>Local de implantação: Terreno elevado.</em></p>
+    <p><em>Em vez de atacar o inimigo, eles curam qualquer unidade aliada dentro do alcance. Certos médicos, como Nightingale, têm uma cura AoE, para que possam curar todos os que estiverem ao mesmo tempo, em vez de um de cada vez.</em></p>
+    <p><em>7.Supporter</em><br><em>Local de implantação: Terreno elevado.</em></p>
+    <p><em>Os apoiadores não têm um tipo de ataque próprio, então eles imitam Snipers e Casters. Eles buffam o time ou debuff o inimigo.</em></p>
+    <p><em>8.Drones</em><br><em>Local de implantação: Solo ou Terreno elevado.</em></p>
+    <p><em>Esta classe é reservada para unidades implantáveis ​​especiais, como as unidades de suporte de certos operadores (como o Tentacle da Deepcolor ou o drone de cura da Silence) ou paredes para alguns mapas.</em></p>
+    <img src="IMG/ope.gif" style="position: relative; right: -25%;">
+  </div>
+  
+  <footer class="w3-center w3-dark-grey w3-padding-48 w3-hover-black cf">
+    <p class="w3-half">Aluno: Rodrigo Almeida </p>
+  </footer>
+  <script src="JS/java.js"></script>
+  <script src="JS/smoothscroll.min.js"></script>
+</body>
+</html>
